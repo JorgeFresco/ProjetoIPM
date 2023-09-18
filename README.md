@@ -5,12 +5,11 @@ Projeto com Next.js
 
 ## Passos para correr localmente
 1. Clone do projeto
-2. No terminal do vosso editor, corram 
+2. No terminal do vosso editor, corram o seguinte comando para instalar as dependências:
 ```bash
 npm install
 ```
-para instalar todas as dependências.
-3. Para correr o projeto localmente, corram no terminal
+3. Para correr o projeto localmente, corram no terminal:
 ```bash
 npm run dev
 ```
