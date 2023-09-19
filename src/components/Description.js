@@ -70,7 +70,7 @@ export default function Description() {
         <Grid container spacing={4}>
           <Grid item xs={12} sm={6} md={3}>
             <Card sx={{height: "100%", display: "flex", flexDirection: "column"}}>
-              <CardMedia image="" sx={{paddingTop: "56.25%"}}/>
+              <CardMedia image="/images/DiogoS.jpg" sx={{paddingTop: "100%"}}/>
               <CardContent sx={{ flexGrow: 1}}>
                 <Typography gutterBottom variant="h5">
                   Diogo Santos
