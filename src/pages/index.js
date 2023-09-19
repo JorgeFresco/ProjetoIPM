@@ -3,20 +3,12 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import {
   Typography,
   AppBar,
-  Card,
-  CardActions,
-  CardContent,
-  CardMedia,
   CssBaseline,
-  Grid,
   Toolbar,
-  Container,
-  IconButton,
   Tabs,
   Tab,
   Box,
 } from "@mui/material";
-import { useRouter } from "next/router";
 import {useState} from "react";
 import Description from "@/components/Description";
 import Report from "@/components/Report";
@@ -29,7 +21,6 @@ const darkTheme = createTheme({
 });
 
 export default function HomePage() {
-  const router = useRouter();
   const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {

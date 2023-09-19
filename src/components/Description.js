@@ -1,4 +1,5 @@
 import {
+  Accordion, AccordionDetails, AccordionSummary,
   Button,
   Card, CardActions,
   CardContent,
@@ -7,6 +8,7 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function Description() {
   return (
@@ -69,7 +71,7 @@ export default function Description() {
       <Container sx={{padding: "20px 0"}} maxWidth="md">
         <Grid container spacing={4}>
           <Grid item xs={12} sm={6} md={3}>
-            <Card sx={{height: "100%", display: "flex", flexDirection: "column"}}>
+            <Card sx={{display: "flex", flexDirection: "column"}}>
               <CardMedia image="/images/DiogoS.jpg" sx={{paddingTop: "100%"}}/>
               <CardContent sx={{ flexGrow: 1}}>
                 <Typography gutterBottom variant="h5">
@@ -79,13 +81,55 @@ export default function Description() {
                   Número: 60003
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">Ver tarefas individuais</Button>
-              </CardActions>
+              <Accordion>
+                <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                >
+                  <Typography>Assigment 1</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                >
+                  <Typography>Assigment 2</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                >
+                  <Typography>Assigment 3</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
-            <Card sx={{height: "100%", display: "flex", flexDirection: "column"}}>
+            <Card sx={{display: "flex", flexDirection: "column"}}>
               <CardMedia image="/images/JorgeF.jpg" sx={{paddingTop: "100%"}}/>
               <CardContent sx={{ flexGrow: 1}}>
                 <Typography gutterBottom variant="h5">
@@ -95,13 +139,25 @@ export default function Description() {
                   Número: 60209
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">Ver tarefas individuais</Button>
-              </CardActions>
+              <Accordion>
+                <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                >
+                  <Typography>Assigments</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
-            <Card sx={{height: "100%", display: "flex", flexDirection: "column"}}>
+            <Card sx={{display: "flex", flexDirection: "column"}}>
               <CardMedia image="" sx={{paddingTop: "56.25%"}}/>
               <CardContent sx={{ flexGrow: 1}}>
                 <Typography gutterBottom variant="h5">
@@ -117,7 +173,7 @@ export default function Description() {
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
-            <Card sx={{height: "100%", display: "flex", flexDirection: "column"}}>
+            <Card sx={{ display: "flex", flexDirection: "column"}}>
               <CardMedia image="" sx={{paddingTop: "56.25%"}}/>
               <CardContent sx={{ flexGrow: 1}}>
                 <Typography gutterBottom variant="h5">
