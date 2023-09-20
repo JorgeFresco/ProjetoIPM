@@ -7,10 +7,30 @@ import {
   Container,
   Grid,
   Typography,
+  Modal,
+  Box,
+  Link
 } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import React, { useState } from 'react';
 
 export default function Description() {
+    const [open, setOpen] = useState(false);
+    const handleOpen = () => setOpen(true);
+    const handleClose = () => setOpen(false);
+
+    const style = {
+      position: 'absolute',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+      width: 400,
+      bgcolor: 'background.paper',
+      border: '2px solid #000',
+      boxShadow: 24,
+      p: 4,
+    };
+
   return (
     <>
       <Container
@@ -82,7 +102,22 @@ export default function Description() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small" color="primary">Ver tarefas individuais</Button>
+                <Button size="small" onClick={handleOpen} color="primary">Ver tarefas individuais</Button>
+                <Modal
+                  open={open}
+                  onClose={handleClose}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box sx={style}>
+                    <Typography id="modal-modal-title" variant="h6" component="h2">
+                      Tarefas
+                    </Typography>
+                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                      <Link href="https://drive.google.com/file/d/1cABmRM2IYZnpLi-kEHdsD7VKydjvsX11/view?usp=drive_link" target='_blank' rel='noopener noreferrer'>Tarefa 1</Link>
+                    </Typography>
+                  </Box>
+                </Modal>
                 </CardActions>
             </Card>
           </Grid>
@@ -98,7 +133,22 @@ export default function Description() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small" color="primary">Ver tarefas individuais</Button>
+                <Button size="small" onClick={handleOpen} color="primary">Ver tarefas individuais</Button>
+                <Modal
+                  open={open}
+                  onClose={handleClose}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box sx={style}>
+                    <Typography id="modal-modal-title" variant="h6" component="h2">
+                      Tarefas
+                    </Typography>
+                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                      <Link href="" target='_blank' rel='noopener noreferrer'>Tarefa 1</Link>
+                    </Typography>
+                  </Box>
+                </Modal>
                 </CardActions>
             </Card>
           </Grid>
@@ -114,7 +164,22 @@ export default function Description() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small" color="primary">Ver tarefas individuais</Button>
+                <Button size="small" onClick={handleOpen} color="primary">Ver tarefas individuais</Button>
+                <Modal
+                  open={open}
+                  onClose={handleClose}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box sx={style}>
+                    <Typography id="modal-modal-title" variant="h6" component="h2">
+                      Tarefas
+                    </Typography>
+                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                      <Link href="" target='_blank' rel='noopener noreferrer'>Tarefa 1</Link>
+                    </Typography>
+                  </Box>
+                </Modal>
               </CardActions>
             </Card>
           </Grid>
@@ -130,7 +195,22 @@ export default function Description() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small" color="primary">Ver tarefas individuais</Button>
+                <Button size="small" onClick={handleOpen} color="primary">Ver tarefas individuais</Button>
+                <Modal
+                  open={open}
+                  onClose={handleClose}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box sx={style}>
+                    <Typography id="modal-modal-title" variant="h6" component="h2">
+                      Tarefas
+                    </Typography>
+                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                      <Link href="" target='_blank' rel='noopener noreferrer'>Tarefa 1</Link>
+                    </Typography>
+                  </Box>
+                </Modal>
               </CardActions>
             </Card>
           </Grid>
