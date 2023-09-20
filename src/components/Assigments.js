@@ -4,7 +4,7 @@ export default function Assigments() {
 
     return (
         <Container
-            maxWidth="sm"
+            maxWidth="md"
             sx={(theme) => ({
                 padding: theme.spacing(5),
             })}
@@ -20,13 +20,47 @@ export default function Assigments() {
             </Typography>
             <Typography
                 variant="h5"
-                align="center"
+                align="left"
+                color="textSecondary"
+                paragraph
+                sx={{ fontWeight: "bold" }}
+            >
+                Tarefa 1
+            </Typography>
+            <Typography
+                variant="h5"
+                align="left"
                 color="textSecondary"
                 paragraph
             >
-                Tarefa 1 -
-                Tarefa 2 -
-                Tarefa 3 -
+                <span style={{ fontSize: 'smaller' }}>
+                <a href="https://drive.google.com/file/d/1cABmRM2IYZnpLi-kEHdsD7VKydjvsX11/view?usp=drive_link"
+                    target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Diogo Santos</a> |&nbsp;
+                <a href=""
+                    target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Jorge Fresco</a> |&nbsp;
+                <a href=""
+                    target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Liubov Mikhailovna</a> |&nbsp;
+                <a href=""
+                    target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Wilker Martins</a>
+                </span>
+            </Typography>
+            <Typography
+                variant="h5"
+                align="left"
+                color="textSecondary"
+                paragraph
+                sx={{ fontWeight: "bold" }}
+            >
+                Tarefa 2
+            </Typography>
+            <Typography
+                variant="h5"
+                align="left"
+                color="textSecondary"
+                paragraph
+                sx={{ fontWeight: "bold" }}
+            >
+                Tarefa 3
             </Typography>
         </Container>
     )

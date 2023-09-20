@@ -101,24 +101,6 @@ export default function Description() {
                   Número: 60003
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" onClick={handleOpen} color="primary">Ver tarefas individuais</Button>
-                <Modal
-                  open={open}
-                  onClose={handleClose}
-                  aria-labelledby="modal-modal-title"
-                  aria-describedby="modal-modal-description"
-                >
-                  <Box sx={style}>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
-                      Tarefas
-                    </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                      <Link href="https://drive.google.com/file/d/1cABmRM2IYZnpLi-kEHdsD7VKydjvsX11/view?usp=drive_link" target='_blank' rel='noopener noreferrer'>Tarefa 1</Link>
-                    </Typography>
-                  </Box>
-                </Modal>
-                </CardActions>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -132,24 +114,6 @@ export default function Description() {
                   Número: 60209
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" onClick={handleOpen} color="primary">Ver tarefas individuais</Button>
-                <Modal
-                  open={open}
-                  onClose={handleClose}
-                  aria-labelledby="modal-modal-title"
-                  aria-describedby="modal-modal-description"
-                >
-                  <Box sx={style}>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
-                      Tarefas
-                    </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                      <Link href="" target='_blank' rel='noopener noreferrer'>Tarefa 1</Link>
-                    </Typography>
-                  </Box>
-                </Modal>
-                </CardActions>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -163,24 +127,6 @@ export default function Description() {
                   Número: 60204
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" onClick={handleOpen} color="primary">Ver tarefas individuais</Button>
-                <Modal
-                  open={open}
-                  onClose={handleClose}
-                  aria-labelledby="modal-modal-title"
-                  aria-describedby="modal-modal-description"
-                >
-                  <Box sx={style}>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
-                      Tarefas
-                    </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                      <Link href="" target='_blank' rel='noopener noreferrer'>Tarefa 1</Link>
-                    </Typography>
-                  </Box>
-                </Modal>
-              </CardActions>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -194,24 +140,6 @@ export default function Description() {
                   Número: 58535
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" onClick={handleOpen} color="primary">Ver tarefas individuais</Button>
-                <Modal
-                  open={open}
-                  onClose={handleClose}
-                  aria-labelledby="modal-modal-title"
-                  aria-describedby="modal-modal-description"
-                >
-                  <Box sx={style}>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
-                      Tarefas
-                    </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                      <Link href="" target='_blank' rel='noopener noreferrer'>Tarefa 1</Link>
-                    </Typography>
-                  </Box>
-                </Modal>
-              </CardActions>
             </Card>
           </Grid>
         </Grid>
