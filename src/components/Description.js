@@ -81,51 +81,9 @@ export default function Description() {
                   Número: 60003
                 </Typography>
               </CardContent>
-              <Accordion>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                >
-                  <Typography>Assigment 1</Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-                  <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                  </Typography>
-                </AccordionDetails>
-              </Accordion>
-              <Accordion>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                >
-                  <Typography>Assigment 2</Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-                  <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                  </Typography>
-                </AccordionDetails>
-              </Accordion>
-              <Accordion>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                >
-                  <Typography>Assigment 3</Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-                  <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                  </Typography>
-                </AccordionDetails>
-              </Accordion>
+              <CardActions>
+                <Button size="small" color="primary">Ver tarefas individuais</Button>
+                </CardActions>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -139,21 +97,9 @@ export default function Description() {
                   Número: 60209
                 </Typography>
               </CardContent>
-              <Accordion>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                >
-                  <Typography>Assigments</Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-                  <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                  </Typography>
-                </AccordionDetails>
-              </Accordion>
+              <CardActions>
+                <Button size="small" color="primary">Ver tarefas individuais</Button>
+                </CardActions>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
