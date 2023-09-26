@@ -1,4 +1,4 @@
-import {Container, Typography} from "@mui/material";
+import {Container, Divider, Typography} from "@mui/material";
 
 export default function Assigments() {
 
@@ -38,12 +38,13 @@ export default function Assigments() {
                     target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Diogo Santos</a> |&nbsp;
                 <a href=""
                     target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Jorge Fresco</a> |&nbsp;
-                <a href=""
+                <a href="https://drive.google.com/file/d/17TEFCQbt6yWaJ2V0gpCOr4wMqTq5knq-/view?usp=sharing"
                     target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Liubov Mikhailovna</a> |&nbsp;
                 <a href=""
                     target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Wilker Martins</a>
                 </span>
             </Typography>
+            <Divider sx={{marginBottom: "50px", marginTop: "50px"}} />
             <Typography
                 variant="h5"
                 align="left"
@@ -53,6 +54,7 @@ export default function Assigments() {
             >
                 Tarefa 2
             </Typography>
+            <Divider sx={{marginBottom: "50px", marginTop: "50px"}} />
             <Typography
                 variant="h5"
                 align="left"
