@@ -109,7 +109,7 @@ export default function Description() {
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
             <Card sx={{ display: "flex", flexDirection: "column"}}>
-              <CardMedia image="" sx={{paddingTop: "56.25%"}}/>
+              <CardMedia image="/images/WilkerM.jpeg" sx={{paddingTop: "100%"}}/>
               <CardContent sx={{ flexGrow: 1}}>
                 <Typography gutterBottom variant="h5">
                   Wilker Martins
