@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import {useState} from "react";
 import Description from "@/components/Description";
-import Report from "@/components/Report";
+import Reports from "@/components/Reports";
 import Assigments from "@/components/Assigments";
 
 const darkTheme = createTheme({
@@ -51,7 +51,7 @@ export default function HomePage() {
         </AppBar>
         <main>
           {value === 0 && <Description />}
-          {value === 1 && <Report />}
+          {value === 1 && <Reports />}
           {value === 2 && <Assigments />}
         </main>
       </ThemeProvider>

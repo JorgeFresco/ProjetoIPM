@@ -31,7 +31,6 @@ export default function Assigments() {
                 variant="h5"
                 align="left"
                 color="textSecondary"
-                paragraph
             >
                 <span style={{ fontSize: 'smaller' }}>
                 <a href="https://drive.google.com/file/d/1cABmRM2IYZnpLi-kEHdsD7VKydjvsX11/view?usp=drive_link"
