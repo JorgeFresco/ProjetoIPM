@@ -36,7 +36,7 @@ export default function Assigments() {
                 <span style={{ fontSize: 'smaller' }}>
                 <a href="https://drive.google.com/file/d/1cABmRM2IYZnpLi-kEHdsD7VKydjvsX11/view?usp=drive_link"
                     target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Diogo Santos</a> |&nbsp;
-                <a href=""
+                <a href="https://drive.google.com/file/d/1IniKRhy0teXt0sUv-DA_Y44ovtmiEKkI/view?usp=sharing"
                     target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Jorge Fresco</a> |&nbsp;
                 <a href="https://drive.google.com/file/d/17TEFCQbt6yWaJ2V0gpCOr4wMqTq5knq-/view?usp=sharing"
                     target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Liubov Mikhailovna</a> |&nbsp;
