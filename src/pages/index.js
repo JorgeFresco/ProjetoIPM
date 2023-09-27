@@ -43,8 +43,8 @@ export default function HomePage() {
             <Box sx={{ flexGrow: 1 }}>
               <Tabs value={value} onChange={handleChange} centered>
                 <Tab label="Descrição" />
-                <Tab label="Relatório" />
-                <Tab label="Tarefas" />
+                <Tab label="Relatórios" />
+                <Tab label="Tarefas Individuais" />
               </Tabs>
             </Box>
           </Toolbar>

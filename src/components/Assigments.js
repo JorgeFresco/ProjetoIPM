@@ -16,7 +16,7 @@ export default function Assigments() {
                 gutterBottom
                 sx={{ fontWeight: "bold" }}
             >
-                Tarefas
+                Tarefas Individuais
             </Typography>
             <Typography
                 variant="h5"
