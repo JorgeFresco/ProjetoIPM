@@ -30,8 +30,8 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Projeto IPM</title>
-        <meta name="description" content="Página do projeto de IPM" />
+        <title>Let me Cook</title>
+        <meta name="description" content="Página de projeto da cadeira de IPM" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -39,7 +39,7 @@ export default function HomePage() {
         <CssBaseline />
         <AppBar position="relative">
           <Toolbar>
-            <Typography variant="h5">HomePal</Typography>
+            <Typography variant="h5">Let Me Cook</Typography>
             <Box sx={{ flexGrow: 1 }}>
               <Tabs value={value} onChange={handleChange} centered>
                 <Tab label="Descrição" />
