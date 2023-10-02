@@ -24,29 +24,22 @@ export default function Description() {
           gutterBottom
           sx={{ fontWeight: "bold" }}
         >
-          HomePal
+          Let Me Cook
         </Typography>
         <Typography variant="h5" align="center" color="textSecondary" paragraph>
-          HomePal é uma aplicação que procura facilitar a
-          organização das tarefas de casa.
+          A Let Me Cook é uma aplicação que procura facilitar a
+          confeção de alimentos.
         </Typography>
       </Container>
 
       <Container maxWidth="xl">
         <Typography variant="body1" mb={1}>
-          O HomePal ajuda-o na cozinha, podendo gerir os ingredientes que tem em
-          casa, adicionar as suas próprias receitas e acedê-las facilmente em
-          qualquer lado através da aplicação.
+          A aplicação "Let Me Cook” é uma aplicação de telemóvel dedicada a entusiastas da culinária e amantes de gastronomia.
+          Com uma vasta biblioteca de receitas, recursos nutricionais detalhados e a possibilidade de gerir os ingredientes de cada utilizador,
+          a “Let Me Cook” é um ajudante de confiança na cozinha. É possível, também, manter a despensa pessoal organizada com a funcionalidade disponibilizada pela aplicação.
         </Typography>
         <Typography variant="body1" mb={1}>
-          Também o ajuda nas suas compras, permitindo criar uma lista de compras
-          e registar o que já foi comprado para não ter de andar com um papel e
-          uma caneta atrás quando vai ao supermercado.
-        </Typography>
-        <Typography variant="body1" mb={1}>
-          Pode registar na aplicação as suas tarefas, quer diárias como únicas,
-          impedindo esquecimentos e ajudando-o a organizar melhor a sua vida
-          diária.
+          A "Let Me Cook" é a aplicação perfeita para todos, desde novatos na cozinha até chefs experientes, que desejam aprimorar as suas habilidades culinárias enquanto mantêm um controle rigoroso das informações nutricionais de suas refeições.
         </Typography>
       </Container>
 
