@@ -34,12 +34,12 @@ export default function Description() {
 
       <Container maxWidth="xl">
         <Typography variant="body1" mb={1}>
-          A aplicação "Let Me Cook” é uma aplicação de telemóvel dedicada a entusiastas da culinária e amantes de gastronomia.
+          A aplicação &quot;Let Me Cook&quot; é uma aplicação de telemóvel dedicada a entusiastas da culinária e amantes de gastronomia.
           Com uma vasta biblioteca de receitas, recursos nutricionais detalhados e a possibilidade de gerir os ingredientes de cada utilizador,
           a “Let Me Cook” é um ajudante de confiança na cozinha. É possível, também, manter a despensa pessoal organizada com a funcionalidade disponibilizada pela aplicação.
         </Typography>
         <Typography variant="body1" mb={1}>
-          A "Let Me Cook" é a aplicação perfeita para todos, desde novatos na cozinha até chefs experientes, que desejam aprimorar as suas habilidades culinárias enquanto mantêm um controle rigoroso das informações nutricionais de suas refeições.
+          A &quot;Let Me Cook&quot; é a aplicação perfeita para todos, desde novatos na cozinha até chefs experientes, que desejam aprimorar as suas habilidades culinárias enquanto mantêm um controle rigoroso das informações nutricionais de suas refeições.
         </Typography>
       </Container>
 
