@@ -71,7 +71,8 @@ export default function Reports() {
                 mt={2}
                 paragraph
             >
-                Link para o relatório
+                <a href="https://drive.google.com/file/d/1oghud0ia4SpTRxIpbzesPzEZXsDM79Wb/view?usp=sharing"
+                    target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Link para o relatório</a>
             </Typography>
             <Divider sx={{marginBottom: "50px", marginTop: "50px"}} />
             <Typography
@@ -89,7 +90,8 @@ export default function Reports() {
                 mt={2}
                 paragraph
             >
-                Link para o relatório
+                <a href="https://drive.google.com/file/d/1FaSvuCRCsJSTFw7KiXy8OPamneKp_4DE/view?usp=sharing"
+                    target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Link para o relatório</a>
             </Typography>
             <Divider sx={{marginBottom: "50px", marginTop: "50px"}} />
             <Typography
