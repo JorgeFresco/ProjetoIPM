@@ -109,7 +109,10 @@ export default function Reports() {
                 mt={2}
                 paragraph
             >
-                Link para o relatório
+                <a href="https://drive.google.com/file/d/11ZO0cgcDRGrd4tJfHifMIzUVJG6WT4y0/view?usp=sharing"
+                    target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Link para o relatório enviado</a>
+                <a href="https://drive.google.com/file/d/1vxueCssHNKAN_igrfcMmerkCFueehaHF/view?usp=sharing"
+                    target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Link para o relatório recebido</a>
             </Typography>
             <Divider sx={{marginBottom: "50px", marginTop: "50px"}} />
             <Typography
@@ -127,7 +130,8 @@ export default function Reports() {
                 mt={2}
                 paragraph
             >
-                Link para o relatório
+                <a href="https://drive.google.com/file/d/11n64BmC0QrAnOUfC9b0vFlB9XPo-LSef/view?usp=sharing"
+                    target='_blank' rel='noopener noreferrer' style={{ color: 'CadetBlue' }}>Link para o relatório</a>
             </Typography>
         </Container>
     )
